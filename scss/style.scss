@@ -4,10 +4,17 @@
   box-sizing: border-box;
   scrollbar-width: none;
 }
-.mtop{
+
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.mtop {
   margin-top: 100px;
 }
-header{
+
+header {
   padding: 20px;
 }
 
@@ -79,13 +86,13 @@ body {
   text-align: left;
   max-width: 600px;
 
-  button{
+  button {
     padding: 7px 10px;
     border: none;
     background: rgba(34, 167, 93, 1);
     color: white;
     border-radius: 15px;
-    }
+  }
 }
 
 h2 {
@@ -196,22 +203,27 @@ p {
   }
 
   .For-Creators-text {
-    background-image: url(./ASSETS/Vector.png);
+    background-image: url(../ASSETS/img/Vector.png);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
-    height: 400px;
+    height: 548px;
     display: grid;
     grid-template-columns: 500px 500px;
     gap: 50px;
     padding: 100px 100px;
     color: aliceblue;
 
+    p {
+      color: white;
+    }
+
     div {
       text-align: left;
 
       h2 {
         font-size: 45px;
+        color: white;
       }
     }
   }

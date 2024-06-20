@@ -5,6 +5,11 @@
   scrollbar-width: none;
 }
 
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 .mtop {
   margin-top: 100px;
 }
@@ -177,22 +182,26 @@ p {
   position: absolute;
 }
 .For-Creat .For-Creators-text {
-  background-image: url(./ASSETS/Vector.png);
+  background-image: url(../ASSETS/img/Vector.png);
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
-  height: 400px;
+  height: 548px;
   display: grid;
   grid-template-columns: 500px 500px;
   gap: 50px;
   padding: 100px 100px;
   color: aliceblue;
 }
+.For-Creat .For-Creators-text p {
+  color: white;
+}
 .For-Creat .For-Creators-text div {
   text-align: left;
 }
 .For-Creat .For-Creators-text div h2 {
   font-size: 45px;
+  color: white;
 }
 
 .Q12021 {
